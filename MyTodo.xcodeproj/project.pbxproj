@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11DC90A20F84A06001F2DFF /* CarrierTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11DC90920F84A06001F2DFF /* CarrierTableViewController.swift */; };
+		F11DC90C20F86137001F2DFF /* AddCarrierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11DC90B20F86137001F2DFF /* AddCarrierViewController.swift */; };
+		F11DC90F20F86974001F2DFF /* FlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11DC90D20F86974001F2DFF /* FlightTableViewCell.swift */; };
+		F11DC91020F86974001F2DFF /* FlightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11DC90E20F86974001F2DFF /* FlightTableViewCell.xib */; };
+		F163ABDA20EE0812006AFB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABD920EE0812006AFB52 /* AppDelegate.swift */; };
+		F163ABDC20EE0812006AFB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABDB20EE0812006AFB52 /* ViewController.swift */; };
+		F163ABDF20EE0812006AFB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F163ABDD20EE0812006AFB52 /* Main.storyboard */; };
+		F163ABE120EE0812006AFB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F163ABE020EE0812006AFB52 /* Assets.xcassets */; };
+		F163ABE420EE0812006AFB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F163ABE220EE0812006AFB52 /* LaunchScreen.storyboard */; };
+		F163ABEC20EE0EE1006AFB52 /* MyTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABEB20EE0EE1006AFB52 /* MyTodo.swift */; };
+		F163ABEE20F2AD2E006AFB52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABED20F2AD2E006AFB52 /* LoginViewController.swift */; };
+		F163ABF020F2B16A006AFB52 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABEF20F2B16A006AFB52 /* AddEventViewController.swift */; };
+		F163ABF220F2E170006AFB52 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABF120F2E170006AFB52 /* EventsTableViewController.swift */; };
+		F163ABF420F2E793006AFB52 /* MyBookingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163ABF320F2E793006AFB52 /* MyBookingsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11DC90920F84A06001F2DFF /* CarrierTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrierTableViewController.swift; sourceTree = "<group>"; };
+		F11DC90B20F86137001F2DFF /* AddCarrierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarrierViewController.swift; sourceTree = "<group>"; };
+		F11DC90D20F86974001F2DFF /* FlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTableViewCell.swift; sourceTree = "<group>"; };
+		F11DC90E20F86974001F2DFF /* FlightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlightTableViewCell.xib; sourceTree = "<group>"; };
+		F163ABD620EE0812006AFB52 /* MyTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F163ABD920EE0812006AFB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F163ABDB20EE0812006AFB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F163ABDE20EE0812006AFB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F163ABE020EE0812006AFB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F163ABE320EE0812006AFB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F163ABE520EE0812006AFB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F163ABEB20EE0EE1006AFB52 /* MyTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodo.swift; sourceTree = "<group>"; };
+		F163ABED20F2AD2E006AFB52 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F163ABEF20F2B16A006AFB52 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		F163ABF120F2E170006AFB52 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		F163ABF320F2E793006AFB52 /* MyBookingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F163ABD320EE0812006AFB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F163ABCD20EE0812006AFB52 = {
+			isa = PBXGroup;
+			children = (
+				F163ABD820EE0812006AFB52 /* MyTodo */,
+				F163ABD720EE0812006AFB52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F163ABD720EE0812006AFB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F163ABD620EE0812006AFB52 /* MyTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F163ABD820EE0812006AFB52 /* MyTodo */ = {
+			isa = PBXGroup;
+			children = (
+				F163ABD920EE0812006AFB52 /* AppDelegate.swift */,
+				F163ABDB20EE0812006AFB52 /* ViewController.swift */,
+				F163ABED20F2AD2E006AFB52 /* LoginViewController.swift */,
+				F163ABDD20EE0812006AFB52 /* Main.storyboard */,
+				F163ABE020EE0812006AFB52 /* Assets.xcassets */,
+				F163ABE220EE0812006AFB52 /* LaunchScreen.storyboard */,
+				F163ABE520EE0812006AFB52 /* Info.plist */,
+				F163ABEB20EE0EE1006AFB52 /* MyTodo.swift */,
+				F163ABEF20F2B16A006AFB52 /* AddEventViewController.swift */,
+				F163ABF120F2E170006AFB52 /* EventsTableViewController.swift */,
+				F163ABF320F2E793006AFB52 /* MyBookingsTableViewController.swift */,
+				F11DC90B20F86137001F2DFF /* AddCarrierViewController.swift */,
+				F11DC90920F84A06001F2DFF /* CarrierTableViewController.swift */,
+				F11DC90D20F86974001F2DFF /* FlightTableViewCell.swift */,
+				F11DC90E20F86974001F2DFF /* FlightTableViewCell.xib */,
+			);
+			path = MyTodo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F163ABD520EE0812006AFB52 /* MyTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F163ABE820EE0812006AFB52 /* Build configuration list for PBXNativeTarget "MyTodo" */;
+			buildPhases = (
+				F163ABD220EE0812006AFB52 /* Sources */,
+				F163ABD320EE0812006AFB52 /* Frameworks */,
+				F163ABD420EE0812006AFB52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTodo;
+			productName = MyTodo;
+			productReference = F163ABD620EE0812006AFB52 /* MyTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F163ABCE20EE0812006AFB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Diego Karlo Manansala";
+				TargetAttributes = {
+					F163ABD520EE0812006AFB52 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F163ABD120EE0812006AFB52 /* Build configuration list for PBXProject "MyTodo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F163ABCD20EE0812006AFB52;
+			productRefGroup = F163ABD720EE0812006AFB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F163ABD520EE0812006AFB52 /* MyTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F163ABD420EE0812006AFB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F163ABE420EE0812006AFB52 /* LaunchScreen.storyboard in Resources */,
+				F11DC91020F86974001F2DFF /* FlightTableViewCell.xib in Resources */,
+				F163ABE120EE0812006AFB52 /* Assets.xcassets in Resources */,
+				F163ABDF20EE0812006AFB52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F163ABD220EE0812006AFB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F163ABEE20F2AD2E006AFB52 /* LoginViewController.swift in Sources */,
+				F163ABF020F2B16A006AFB52 /* AddEventViewController.swift in Sources */,
+				F163ABF420F2E793006AFB52 /* MyBookingsTableViewController.swift in Sources */,
+				F163ABF220F2E170006AFB52 /* EventsTableViewController.swift in Sources */,
+				F11DC90C20F86137001F2DFF /* AddCarrierViewController.swift in Sources */,
+				F11DC90A20F84A06001F2DFF /* CarrierTableViewController.swift in Sources */,
+				F163ABDC20EE0812006AFB52 /* ViewController.swift in Sources */,
+				F163ABEC20EE0EE1006AFB52 /* MyTodo.swift in Sources */,
+				F163ABDA20EE0812006AFB52 /* AppDelegate.swift in Sources */,
+				F11DC90F20F86974001F2DFF /* FlightTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F163ABDD20EE0812006AFB52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F163ABDE20EE0812006AFB52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F163ABE220EE0812006AFB52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F163ABE320EE0812006AFB52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F163ABE620EE0812006AFB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F163ABE720EE0812006AFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F163ABE920EE0812006AFB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F163ABEA20EE0812006AFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.MyToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F163ABD120EE0812006AFB52 /* Build configuration list for PBXProject "MyTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F163ABE620EE0812006AFB52 /* Debug */,
+				F163ABE720EE0812006AFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F163ABE820EE0812006AFB52 /* Build configuration list for PBXNativeTarget "MyTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F163ABE920EE0812006AFB52 /* Debug */,
+				F163ABEA20EE0812006AFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F163ABCE20EE0812006AFB52 /* Project object */;
+}
